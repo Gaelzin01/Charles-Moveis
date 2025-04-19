@@ -1,0 +1,119 @@
+body{
+    font-family: calibri;
+    background: lightgray;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#conteudo {
+    width:90%;
+    height: 100vh;
+    background: white;
+    margin:auto;
+    border-radius: 15px;
+}
+#topo{
+    height: 70px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+#topo span{
+    font-size:25px;
+    margin-left: 170px;
+    margin-right: 50px;
+    color:#fff;
+    display: flex;
+    padding-top: 18px;
+    font-family: Montserrat;
+}
+
+#menu{
+    width: 18%;
+    height: 88vh;
+    background:rgb(0, 0, 110);
+    padding: 7px;
+    text-align: center;
+    color:black;
+    float: left;
+    border-radius: 15px;
+}
+
+#menu a{
+    font-family: georgia;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#menu a:hover{
+    background-color: goldenrod;
+    
+}
+
+#centro{
+    width: 75%;
+    height: 88vh;
+    background: #f5f5f5;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    float: right;
+    border: 1px solid #ccc;
+    overflow: auto;
+    border-radius: 15px;
+}
+
+#centro h1{
+    font-family: poppins;
+    font-size: 25px;
+    color: #2E2E2E;
+    text-align: center;
+}
+
+#centro h3{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 15px;
+    color: #555555;
+}
+#centro img{
+    width:100px;
+    float: left;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#centro button{
+    float: right;
+    background:rgb(0, 0, 110);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#centro button:hover{
+    background-color: goldenrod;
+}
+
+#centro p{
+    color: green;
+    font-family:inter ;
+    margin-right:200px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-left: 29px;
+    margin-right: 29px;
+    border-radius: 15px;
+}
